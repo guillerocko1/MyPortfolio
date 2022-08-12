@@ -1,0 +1,554 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    background-color: black;
+    opacity: 0.9;
+    position:fixed;
+    justify-content: flex-end;
+    width:100%;
+    
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    position:sticky;
+}
+
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Menu effects*/
+/* unvisited link */
+
+a:link {
+    color: white;
+    font-size:16px
+  }
+  
+  
+  /* mouse over link */
+  a:hover {
+    
+    font-size:19px
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  } 
+/**/
+
+/* mouse over link */
+.container a{
+    color: blue;
+   
+}
+
+ .social-media-marketing .polaroid img:hover{
+    width:400;
+    height: 400;
+}
+
+.container a:hover {
+    font-size:19px
+  }
+  
+  /* selected link */
+ .container a:active {
+    color: yellow;
+  } 
+/**/
+
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    
+}
+
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/main3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+#projects
+{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-center {
+    float:none;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 90%;
+    display: inline-block;
+    margin-left: 80px; 
+}
+
+.polaroid {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    width: 300px;
+    height:300px;
+    border-radius: 8px;
+  }
+
+  .polaroid img{
+    width:100%;
+    height:100%
+  }
+
+  .contact_us {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    width: 700px;
+    height:60px;
+    
+  }
+
+  .project_title
+  {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    width: 700px;
+    height:60px;
+    
+  }
+
+  
+  .container {
+    text-align: center;
+    padding: 10px 20px;
+    color:black;
+  }
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.about {
+    margin-bottom: 10px;
+    margin-top: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:white;
+    color: black;
+    height: 400px;
+}
+
+.about p{
+    font-size: 24px;;
+}
+
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    color: black;
+    width:100%;
+    box-shadow: gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ #skills h1{
+    color: black;
+    padding-top: 5px;;
+    padding-bottom: 5px;
+    box-shadow: gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 30px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+
+.section {
+    flex: 0 0 400px;
+    background-color: #fff;
+    padding: 50px;
+    width:200px
+    
+  }
+
+  .section img{
+    width:200px;
+    height: 150px;
+  }
+
+  .online-reputation-management {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 200px;
+
+  }
+
+  /**********Photo section************/
+  /* Added some padding and styling for the photos */
+.photo {
+    padding: 20px 10px;
+    border: 2px solid #bfbfbf;
+    background-color: #fff;
+  }
+  
+  /* We can use rotate to rotate the photo to the left or right */
+  .rotate {
+    transform: rotate(7deg);
+  }
+  
+  /* We can use scale to stretch the photo vertically or horizontally */
+  .scale {
+    transform: scale(1.5, 1);
+  }
+  
+  /* We can use skew to skew the photo to the left or right */
+  .skew {
+    transform: skew(15deg);
+  }
+
+
+  /**********************/
+
+.projects {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    box-shadow: gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    margin-top:30px;
+    border-radius: 8px;
+    
+
+}
+
+.projects p{
+    font-size: 26px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    color: #ffffff;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: darkgray;
+    border-radius: 10px;
+}
+
+.social-media-marketing1 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 450px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: black;
+    background-color: white;
+}
+
+.about img {
+    max-height: 200px;
+    border-radius: 50%;
+}
+
+.social-media-marketing1 img{
+    border-radius: 8px;
+
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  
+  div.container {
+    padding: 10px;
+  }
+
+  div.project_container {
+    padding: 10px;
+  }
+
+
+
+.online-reputation-management img {
+    max-height: 200px;
+    box-shadow: #2a607c;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.social-media-marketing1 img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing1 h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+      
+    }
+
+    .about p{
+        font-size: 16px;;
+    }
+
+    .typewriter h2{
+        font-size: 15px;;
+    }
+    
+
+    .about img {
+        width: 155px;
+        height: 150px;
+    }
+
+    .about h2, p{
+        font-size: 15px;
+    }
+
+    .content {
+        width: 80%;
+        display: inline-block;
+        margin-left: 60px;
+    }
+
+    .polaroid {
+        flex-direction: column;
+    }
+
+    .contact_us {
+        margin-bottom: 25px;
+
+        width: 320px;
+        height:80px;
+      }
+
+
+      .social-media-marketing{
+        justify-content: space-around;
+        flex-direction: column;
+        margin-bottom: 120px;
+        margin-top: 175px;
+
+      }
+
+.online-reputation-management{
+    padding-bottom: 1200px;;
+}
+
+.section{   
+        
+        background-color: #fff;
+        padding-bottom: 30px;
+        width:50%;
+        justify-content: center;
+
+}
+
+.section .photo{
+    width: 225px;
+}
+
+.section img{
+    width: 150px;
+    margin:auto;
+}
+      .social-media-marketing .polaroid{
+            margin: 10px;
+      }
+
+      .social-media-marketing1 img{
+        margin-left: 25px;
+        margin-bottom: 20px;
+      }
+
+      .footer h2{
+        padding-top: 110px;
+        font-size: 13px;
+      }
+
+      .footer p{ 
+        font-size: 13px;
+      }
+  }
+
+  @media screen and (max-width: 450px) {
+    main,
+    nav {
+      flex-direction: column;
+      
+    }
+
+    .about img {
+        width: 50px;
+        height: 50px;
+        
+    }
+  }
+  
