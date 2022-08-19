@@ -262,13 +262,18 @@ p {
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
-    height: 500px;
+    height: 550px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: white;
     color: black;
     width:100%;
     box-shadow: gray;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 200px;
 }
 
  #skills h1{
@@ -289,23 +294,18 @@ p {
     flex: 0 0 400px;
     background-color: #fff;
     padding: 50px;
-    width:200px
+    width:100px;
+    height:100px;
     
   }
 
   .section img{
-    width:200px;
+    width:150px;
     height: 150px;
   }
 
-  .online-reputation-management {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 20px;
-    margin-bottom: 200px;
-
-  }
+  
+ 
 
   /**********Photo section************/
   /* Added some padding and styling for the photos */
@@ -447,7 +447,9 @@ p {
     font-size: 15px;
 }
 
-@media screen and (max-width: 768px) {
+
+
+@media screen and (max-width: 1000px) {
     main,
     nav {
       flex-direction: column;
@@ -489,6 +491,29 @@ p {
         height:80px;
       }
 
+      .section {
+        flex: 0 0 200px;
+        background-color: #fff;
+        padding: 50px;
+        width:100px;
+        height:100px;
+        
+      }
+    
+      .section img{
+        width:75px;
+        height: 150px;
+      }
+    
+      .section p{
+        font-size: 12px;
+      }
+    
+      .section > .photo h2{
+        font-size: 14px;
+      }
+
+
 
       .social-media-marketing{
         justify-content: space-around;
@@ -498,9 +523,18 @@ p {
 
       }
 
-.online-reputation-management{
-    padding-bottom: 1200px;;
-}
+
+    .online-reputation-management {
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 5px;
+        margin-bottom: 100px;
+        height:1000px;
+
+    }
+
 
 .section{   
         
@@ -538,7 +572,7 @@ p {
       }
   }
 
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 600px) {
     main,
     nav {
       flex-direction: column;
@@ -550,5 +584,16 @@ p {
         height: 50px;
         
     }
+
+    .section {
+        flex: 0 0 200px;
+        background-color: #fff;
+        padding: 50px;
+        width:100px;
+        height:100px;
+        
+      }
+    
+
   }
   
